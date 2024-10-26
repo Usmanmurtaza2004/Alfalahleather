@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Falah Leather</title>
+    <style>
+        body {
+            font-family: 'Times New Roman' 'Gotham', Arial, 'Myriad Pro', Helvetica, 'Futura', serif;
+            margin: 0;
+            padding: 0;
+            background: url(post) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .nav{
+            background-image: url('e:\HTML 2.0\website 2.0\bg 3.png');
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: 'Gotham';
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f1c40f;
+            text-decoration: underline;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        button {
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #444;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            height: 5%;
+            bottom: 0;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .contact-info {
+            line-height: 1.6;
+        }
+        #signIn, #signUp {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="e:\HTML 2.0\website 2.0\AL-FALAH ENTERPRISE.png" width="500" height="500">
+        <h1>Al Falah Leather </h1>
+        <nav class="nav">
+            
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#signIn" id="signInLink">Sign In</a>
+            <a href="#signUp" id="signUpLink">Sign Up</a>
+            <a href="#logOut" id="logOutLink" style="display: none;">Log Out</a>
+        </nav>
+        <div class="social-links">
+            <a href="https://www.instagram.com/alfalahleather?igsh=MTlsdWpmcTVpajA1cg%3D%3D&utm_source=qr" target="_blank">Follow us on Instagram</a>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Al Falah Leather</h2>
+        <p>We are delighted to have you here!</p>
+        <button id="learnMore">Learn More</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Al Falah Leather is led by CEO <b>Usman Murtaza</b>, dedicated to providing high-quality leather products.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Explore our wide range of leather products and services.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <h3>Leather Jackets</h3>
+                <p><strong>Categories:</strong> Ladies, Gents</p>
+                <img src="e:\HTML 2.0\website 2.0\A-SYMBOL-OF-FASHION-AND-STYLE-STATEMENT-IS-THE-MENS-BLACK-LEATHER-JACKET.jpeg" alt="Leather Jackets" width="300" height="300">
+                <p>Explore our stylish and durable leather jackets for both ladies and gents.</p>
+            </div>
+            <div class="product">
+                <h3>Handbags</h3>
+                <p><strong>Category:</strong> Ladies</p>
+                <img src="e:\HTML 2.0\website 2.0\6-piece-women-handbag-set-pakistan-1.jpg" alt="Handbags" width="300" height="300">
+                <p>Elegant handbags designed for ladies with a touch of sophistication.</p>
+            </div>
+            <div class="product">
+                <h3>Bags</h3>
+                <p><strong>Categories:</strong> Ladies, Gents</p>
+                <img src="e:\HTML 2.0\website 2.0\images (1).jpeg" alt="Bags" width="300" height="300">
+                <p>Versatile and stylish bags suitable for both ladies and gents.</p>
+            </div>
+            <div class="product">
+                <h3>Wallets</h3>
+                <p><strong>Categories:</strong> Ladies, Gents (Long, Short)</p>
+                <img src="e:\HTML 2.0\website 2.0\558c947d3c46659cf6620d8e6cab2991.jpg" alt="Wallets" width="300" height="300">
+                <p>High-quality wallets in various styles including long and short for both ladies and gents.</p>
+            </div>
+            <div class="product">
+                <h3>Belts</h3>
+                <p><strong>Categories:</strong> Ladies, Gents</p>
+                <img src="e:\HTML 2.0\website 2.0\images (2).jpeg" alt="Belts" width="300" height="300">
+                <p>Stylish belts available for both ladies and gents.</p>
+            </div>
+            <div class="product">
+                <h3>Leather Shoes</h3>
+                <p><strong>Categories:</strong> Ladies, Gents</p>
+                <img src="e:\HTML 2.0\website 2.0\7-shoes-own-top-aquila1.jpg" alt="Leather Shoes" width="300" height="300">
+                <p>Premium leather shoes for both ladies and gents, combining style and comfort.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>CEO:</strong> Usman Murtaza</p>
+            <p><strong>Phone:</strong> <a href="tel:03190034982">03190034982</a>, <a href="tel:03390052004">03390052004</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/03190034982">03190034982</a></p>
+            <p><strong>Email:</strong> <a href="mailto:alfalahenterprise1@yahoo.com">alfalahenterprise1@yahoo.com</a></p>
+        </div>
+    </section>
+<hr>
+    <section id="signIn">
+        <h2>Sign In</h2>
+        <form id="signInForm">
+            <label for="signInEmail">Email:</label>
+            <input type="email" id="signInEmail" required>
+            <label for="signInPassword">Password:</label>
+            <input type="password" id="signInPassword" required>
+            <button type="submit">Log In</button>
+        </form>
+    </section>
+<hr>
+    <section id="signUp">
+        <h2>Sign Up</h2>
+        <form id="signUpForm">
+            <label for="signUpName">Name:</label>
+            <input type="text" id="signUpName" required>
+            <label for="signUpEmail">Email:</label>
+            <input type="email" id="signUpEmail" required>
+            <label for="signUpPassword">Password:</label>
+            <input type="password" id="signUpPassword" required>
+            <button type="submit">Create Account</button>
+        </form>
+    </section>
+<hr>
+
+    <script>
+        let isLoggedIn = false;
+
+        document.getElementById('signInLink').addEventListener('click', function() {
+            document.getElementById('signIn').style.display = 'block';
+            document.getElementById('signUp').style.display = 'none';
+        });
+
+        document.getElementById('signUpLink').addEventListener('click', function() {
+            document.getElementById('signUp').style.display = 'block';
+            document.getElementById('signIn').style.display = 'none';
+        });
+
+        document.getElementById('signInForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('signInEmail').value;
+            const password = document.getElementById('signInPassword').value;
+
+            if (email && password) {
+                isLoggedIn = true;
+                alert('Logged in successfully!');
+                updateUI();
+            }
+        });
+
+        document.getElementById('signUpForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Account created successfully! You can now log in.');
+            document.getElementById('signUp').style.display = 'none';
+            document.getElementById('signIn').style.display = 'block';
+        });
+
+        document.getElementById('logOutLink').addEventListener('click', function() {
+            isLoggedIn = false;
+            alert('Logged out successfully!');
+            updateUI();
+        });
+
+        function updateUI() {
+            document.getElementById('signInLink').style.display = isLoggedIn ? 'none' : 'block';
+            document.getElementById('signUpLink').style.display = isLoggedIn ? 'none' : 'block';
+            document.getElementById('logOutLink').style.display = isLoggedIn ? 'block' : 'none';
+        }
+    </script>
+</body>
+<br><br>
+<hr>
+<footer>
+    <p>&copy; 2024 Al Falah Leather. All rights reserved.</p>
+</footer>
+</html>
